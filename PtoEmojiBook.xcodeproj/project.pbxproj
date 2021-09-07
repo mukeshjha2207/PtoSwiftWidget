@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAA4628226E7CC66002DB968 /* PtoEmojiBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4628126E7CC66002DB968 /* PtoEmojiBookApp.swift */; };
+		AAA4628426E7CC66002DB968 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4628326E7CC66002DB968 /* ContentView.swift */; };
+		AAA4628626E7CC6A002DB968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA4628526E7CC6A002DB968 /* Assets.xcassets */; };
+		AAA4628926E7CC6A002DB968 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA4628826E7CC6A002DB968 /* Preview Assets.xcassets */; };
+		AAA4629426E7CC6A002DB968 /* PtoEmojiBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4629326E7CC6A002DB968 /* PtoEmojiBookTests.swift */; };
+		AAA4629F26E7CC6A002DB968 /* PtoEmojiBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4629E26E7CC6A002DB968 /* PtoEmojiBookUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAA4629026E7CC6A002DB968 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAA4627626E7CC66002DB968 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAA4627D26E7CC66002DB968;
+			remoteInfo = PtoEmojiBook;
+		};
+		AAA4629B26E7CC6A002DB968 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAA4627626E7CC66002DB968 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAA4627D26E7CC66002DB968;
+			remoteInfo = PtoEmojiBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAA4627E26E7CC66002DB968 /* PtoEmojiBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PtoEmojiBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA4628126E7CC66002DB968 /* PtoEmojiBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PtoEmojiBookApp.swift; sourceTree = "<group>"; };
+		AAA4628326E7CC66002DB968 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AAA4628526E7CC6A002DB968 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAA4628826E7CC6A002DB968 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AAA4628A26E7CC6A002DB968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAA4628F26E7CC6A002DB968 /* PtoEmojiBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PtoEmojiBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA4629326E7CC6A002DB968 /* PtoEmojiBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PtoEmojiBookTests.swift; sourceTree = "<group>"; };
+		AAA4629526E7CC6A002DB968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAA4629A26E7CC6A002DB968 /* PtoEmojiBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PtoEmojiBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA4629E26E7CC6A002DB968 /* PtoEmojiBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PtoEmojiBookUITests.swift; sourceTree = "<group>"; };
+		AAA462A026E7CC6A002DB968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAA4627B26E7CC66002DB968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA4628C26E7CC6A002DB968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA4629726E7CC6A002DB968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAA4627526E7CC66002DB968 = {
+			isa = PBXGroup;
+			children = (
+				AAA4628026E7CC66002DB968 /* PtoEmojiBook */,
+				AAA4629226E7CC6A002DB968 /* PtoEmojiBookTests */,
+				AAA4629D26E7CC6A002DB968 /* PtoEmojiBookUITests */,
+				AAA4627F26E7CC66002DB968 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAA4627F26E7CC66002DB968 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAA4627E26E7CC66002DB968 /* PtoEmojiBook.app */,
+				AAA4628F26E7CC6A002DB968 /* PtoEmojiBookTests.xctest */,
+				AAA4629A26E7CC6A002DB968 /* PtoEmojiBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAA4628026E7CC66002DB968 /* PtoEmojiBook */ = {
+			isa = PBXGroup;
+			children = (
+				AAA4628126E7CC66002DB968 /* PtoEmojiBookApp.swift */,
+				AAA4628326E7CC66002DB968 /* ContentView.swift */,
+				AAA4628526E7CC6A002DB968 /* Assets.xcassets */,
+				AAA4628A26E7CC6A002DB968 /* Info.plist */,
+				AAA4628726E7CC6A002DB968 /* Preview Content */,
+			);
+			path = PtoEmojiBook;
+			sourceTree = "<group>";
+		};
+		AAA4628726E7CC6A002DB968 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AAA4628826E7CC6A002DB968 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AAA4629226E7CC6A002DB968 /* PtoEmojiBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAA4629326E7CC6A002DB968 /* PtoEmojiBookTests.swift */,
+				AAA4629526E7CC6A002DB968 /* Info.plist */,
+			);
+			path = PtoEmojiBookTests;
+			sourceTree = "<group>";
+		};
+		AAA4629D26E7CC6A002DB968 /* PtoEmojiBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAA4629E26E7CC6A002DB968 /* PtoEmojiBookUITests.swift */,
+				AAA462A026E7CC6A002DB968 /* Info.plist */,
+			);
+			path = PtoEmojiBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAA4627D26E7CC66002DB968 /* PtoEmojiBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA462A326E7CC6A002DB968 /* Build configuration list for PBXNativeTarget "PtoEmojiBook" */;
+			buildPhases = (
+				AAA4627A26E7CC66002DB968 /* Sources */,
+				AAA4627B26E7CC66002DB968 /* Frameworks */,
+				AAA4627C26E7CC66002DB968 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PtoEmojiBook;
+			productName = PtoEmojiBook;
+			productReference = AAA4627E26E7CC66002DB968 /* PtoEmojiBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAA4628E26E7CC6A002DB968 /* PtoEmojiBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA462A626E7CC6A002DB968 /* Build configuration list for PBXNativeTarget "PtoEmojiBookTests" */;
+			buildPhases = (
+				AAA4628B26E7CC6A002DB968 /* Sources */,
+				AAA4628C26E7CC6A002DB968 /* Frameworks */,
+				AAA4628D26E7CC6A002DB968 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAA4629126E7CC6A002DB968 /* PBXTargetDependency */,
+			);
+			name = PtoEmojiBookTests;
+			productName = PtoEmojiBookTests;
+			productReference = AAA4628F26E7CC6A002DB968 /* PtoEmojiBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAA4629926E7CC6A002DB968 /* PtoEmojiBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA462A926E7CC6A002DB968 /* Build configuration list for PBXNativeTarget "PtoEmojiBookUITests" */;
+			buildPhases = (
+				AAA4629626E7CC6A002DB968 /* Sources */,
+				AAA4629726E7CC6A002DB968 /* Frameworks */,
+				AAA4629826E7CC6A002DB968 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAA4629C26E7CC6A002DB968 /* PBXTargetDependency */,
+			);
+			name = PtoEmojiBookUITests;
+			productName = PtoEmojiBookUITests;
+			productReference = AAA4629A26E7CC6A002DB968 /* PtoEmojiBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAA4627626E7CC66002DB968 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					AAA4627D26E7CC66002DB968 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					AAA4628E26E7CC6A002DB968 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = AAA4627D26E7CC66002DB968;
+					};
+					AAA4629926E7CC6A002DB968 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = AAA4627D26E7CC66002DB968;
+					};
+				};
+			};
+			buildConfigurationList = AAA4627926E7CC66002DB968 /* Build configuration list for PBXProject "PtoEmojiBook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAA4627526E7CC66002DB968;
+			productRefGroup = AAA4627F26E7CC66002DB968 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAA4627D26E7CC66002DB968 /* PtoEmojiBook */,
+				AAA4628E26E7CC6A002DB968 /* PtoEmojiBookTests */,
+				AAA4629926E7CC6A002DB968 /* PtoEmojiBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAA4627C26E7CC66002DB968 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA4628926E7CC6A002DB968 /* Preview Assets.xcassets in Resources */,
+				AAA4628626E7CC6A002DB968 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA4628D26E7CC6A002DB968 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA4629826E7CC6A002DB968 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAA4627A26E7CC66002DB968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA4628426E7CC66002DB968 /* ContentView.swift in Sources */,
+				AAA4628226E7CC66002DB968 /* PtoEmojiBookApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA4628B26E7CC6A002DB968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA4629426E7CC6A002DB968 /* PtoEmojiBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA4629626E7CC6A002DB968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA4629F26E7CC6A002DB968 /* PtoEmojiBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAA4629126E7CC6A002DB968 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAA4627D26E7CC66002DB968 /* PtoEmojiBook */;
+			targetProxy = AAA4629026E7CC6A002DB968 /* PBXContainerItemProxy */;
+		};
+		AAA4629C26E7CC6A002DB968 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAA4627D26E7CC66002DB968 /* PtoEmojiBook */;
+			targetProxy = AAA4629B26E7CC6A002DB968 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AAA462A126E7CC6A002DB968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAA462A226E7CC6A002DB968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAA462A426E7CC6A002DB968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PtoEmojiBook/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PtoEmojiBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.demo.PtoEmojiBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAA462A526E7CC6A002DB968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PtoEmojiBook/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PtoEmojiBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.demo.PtoEmojiBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAA462A726E7CC6A002DB968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PtoEmojiBookTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.demo.PtoEmojiBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PtoEmojiBook.app/PtoEmojiBook";
+			};
+			name = Debug;
+		};
+		AAA462A826E7CC6A002DB968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PtoEmojiBookTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.demo.PtoEmojiBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PtoEmojiBook.app/PtoEmojiBook";
+			};
+			name = Release;
+		};
+		AAA462AA26E7CC6A002DB968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PtoEmojiBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.demo.PtoEmojiBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PtoEmojiBook;
+			};
+			name = Debug;
+		};
+		AAA462AB26E7CC6A002DB968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PtoEmojiBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.demo.PtoEmojiBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PtoEmojiBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAA4627926E7CC66002DB968 /* Build configuration list for PBXProject "PtoEmojiBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA462A126E7CC6A002DB968 /* Debug */,
+				AAA462A226E7CC6A002DB968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA462A326E7CC6A002DB968 /* Build configuration list for PBXNativeTarget "PtoEmojiBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA462A426E7CC6A002DB968 /* Debug */,
+				AAA462A526E7CC6A002DB968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA462A626E7CC6A002DB968 /* Build configuration list for PBXNativeTarget "PtoEmojiBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA462A726E7CC6A002DB968 /* Debug */,
+				AAA462A826E7CC6A002DB968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA462A926E7CC6A002DB968 /* Build configuration list for PBXNativeTarget "PtoEmojiBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA462AA26E7CC6A002DB968 /* Debug */,
+				AAA462AB26E7CC6A002DB968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAA4627626E7CC66002DB968 /* Project object */;
+}
