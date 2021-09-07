@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  EmojiBookAppClip
+//  EmojibookAppClip
 //
 //  Created by Mukesh Jha on 07/09/21.
 //

@@ -1,14 +1,14 @@
 //
-//  EmojiBookAppClipTests.swift
-//  EmojiBookAppClipTests
+//  EmojibookAppClipTests.swift
+//  EmojibookAppClipTests
 //
 //  Created by Mukesh Jha on 07/09/21.
 //
 
 import XCTest
-@testable import EmojiBookAppClip
+@testable import EmojibookAppClip
 
-class EmojiBookAppClipTests: XCTestCase {
+class EmojibookAppClipTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
