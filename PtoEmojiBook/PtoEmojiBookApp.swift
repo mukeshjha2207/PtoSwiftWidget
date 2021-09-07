@@ -11,7 +11,7 @@ import SwiftUI
 struct PtoEmojiBookApp: App {
     var body: some Scene {
         WindowGroup {
-            EmojibookListView()
+            EmojibookListView(title: "EmojiBook")
         }
     }
 }

@@ -3,7 +3,7 @@
 //  EmojibookAppClip
 //
 //  Created by Mukesh Jha on 07/09/21.
-//
+// https://www.raywenderlich.com/14455571-app-clips-for-ios-getting-started
 
 import SwiftUI
 
@@ -11,7 +11,7 @@ import SwiftUI
 struct EmojibookAppClipApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           EmojibookListView(title: "App Clip Demo")
         }
     }
 }

@@ -30,6 +30,9 @@
 		AAA4634326E7D2A3002DB968 /* EmojibookAppClipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4634226E7D2A3002DB968 /* EmojibookAppClipTests.swift */; };
 		AAA4634E26E7D2A3002DB968 /* EmojibookAppClipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4634D26E7D2A3002DB968 /* EmojibookAppClipUITests.swift */; };
 		AAA4635226E7D2A3002DB968 /* EmojibookAppClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = AAA4632D26E7D2A1002DB968 /* EmojibookAppClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AAA4635D26E7D387002DB968 /* EmojibookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4630926E7D20A002DB968 /* EmojibookListView.swift */; };
+		AAA4635E26E7D392002DB968 /* EmojiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4630B26E7D20A002DB968 /* EmojiProvider.swift */; };
+		AAA4635F26E7D39F002DB968 /* EmojiDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4630A26E7D20A002DB968 /* EmojiDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -615,7 +618,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAA4633226E7D2A1002DB968 /* ContentView.swift in Sources */,
+				AAA4635E26E7D392002DB968 /* EmojiProvider.swift in Sources */,
+				AAA4635D26E7D387002DB968 /* EmojibookListView.swift in Sources */,
 				AAA4633026E7D2A1002DB968 /* EmojibookAppClipApp.swift in Sources */,
+				AAA4635F26E7D39F002DB968 /* EmojiDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
